@@ -1,0 +1,62 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "A161FDF1-4",
+    "build_number": 4,
+    "build_time": 1643898939643,
+    "release": false
+  },
+  "encryptLevel": 3,
+  "useFeatures": [],
+  "icon": "icons/logo_icon.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashIcon": "icons/splash_icon.png",
+    "splashText": "护肝神器",
+    "stableMode": false
+  },
+  "main": "ui.js",
+  "name": "弹射助手",
+  "optimization": {
+    "obfuscateComponents": true,
+    "removeAccessibilityService": false,
+    "removeOpenCv": false,
+    "unusedResources": false
+  },
+  "packageName": "com.digyth.wfhelper",
+  "permissionConfig": {
+    "manifestPermissions": [
+      "android.permission.WAKE_LOCK",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "android.permission.SYSTEM_ALERT_WINDOW"
+    ],
+    "requestListOnStartup": [
+      "android.permission.WAKE_LOCK",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "android.permission.SYSTEM_ALERT_WINDOW"
+    ]
+  },
+  "publish": {
+    "category": "",
+    "details": "",
+    "maxAutoJsVersion": 0,
+    "maxProVersion": 0,
+    "minAutoJsVersion": 0,
+    "minProVersion": 0,
+    "minSdkVersion": 0,
+    "permissions": [],
+    "summary": "",
+    "tags": []
+  },
+  "scripts": {},
+  "signingConfig": {
+    "alias": "digyth",
+    "keystore": "/storage/emulated/0/MT2/jks/digyth.jks",
+    "uuid": "2ff3fa85-07ff-4075-91ef-52fe683e4d35"
+  },
+  "versionCode": 1,
+  "versionName": "1.3.5"
+}
